@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat_old/client/client.iml" filepath="$PROJECT_DIR$/chat_old/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmd/cmd.iml" filepath="$PROJECT_DIR$/cmd/cmd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/filetodb/filetodb.iml" filepath="$PROJECT_DIR$/filetodb/filetodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pathfinder/pathfinder.iml" filepath="$PROJECT_DIR$/pathfinder/pathfinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/server/server.iml" filepath="$PROJECT_DIR$/chat/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testwork.iml" filepath="$PROJECT_DIR$/testwork.iml" />
+    </modules>
+  </component>
+</project>
+
