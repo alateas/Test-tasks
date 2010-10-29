@@ -8,9 +8,8 @@ import org.tmatesoft.sqljet.core.table.SqlJetDb;
 import java.io.File;
 
 public class DbWorker {
-    private final String DB_NAME = "ololo";
+    private final String DB_NAME = "sqllite_db";
     private final String TABLE_NAME = "data";
-    private File dbFile;
     private SqlJetDb db;
     private ISqlJetTable table;
 
@@ -24,7 +23,7 @@ public class DbWorker {
     }
 
     private void createDb() throws SqlJetException {
-        dbFile = new File(DB_NAME);
+        File dbFile = new File(DB_NAME);
         dbFile.delete();
         db = SqlJetDb.open(dbFile, true);
         db.getOptions().setAutovacuum(true);
